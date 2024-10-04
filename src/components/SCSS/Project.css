@@ -1,0 +1,79 @@
+
+/* projects section styling */
+
+.teams .title::after{
+    content: "Projects Done";
+}
+.teams .carousel .card{
+    background: linear-gradient(135deg, #041d3d, #041d3d,#cccccc);
+    border-radius: 6px;
+    padding: 25px 35px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+ .teams .carousel .card .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.teams .carousel .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+.teams .carousel .card img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid  #8cb17c;
+    transition: all 0.3s ease;
+}
+.teams .carousel .card:hover img{
+    border-color: #fff;
+}
+.owl-dots{
+    text-align: center;
+    margin-top: 20px;
+}
+.owl-dot{
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    outline: none!important;
+    border-radius: 50%;
+    border: 2px solid  #8cb17c!important;
+    transition: all 0.3s ease;
+}
+.owl-dot.active{
+    width: 35px;
+    border-radius: 14px;
+}
+.owl-dot.active,
+.owl-dot:hover{
+    background: #8cb17c!important;
+}
+.teams .carousel .card .box .project
+{
+    display: inline-block;
+    color:  #8cb17c;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid  #8cb17c;
+    transition: 0.3s ease-in-out;
+}
+.teams .carousel .card .box .project:hover{
+    color: white;
+    border: none;
+    background: linear-gradient(90deg,  #8cb17c, #000000);
+}
+.carousel{
+    background: linear-gradient(135deg, #cccccc, #041d3d, #041d3d);}

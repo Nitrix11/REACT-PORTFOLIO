@@ -1,0 +1,69 @@
+
+/*  About  */
+.about {
+  background: linear-gradient(135deg, #041d3d, #041d3d, #cccccc);
+  }
+  .about .title::after {
+    content: "—Who I Am ?—";
+    text-overflow: ellipsis;
+    display: -webkit-inline-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+  
+  .about .about-content .left {
+    width: 45%;
+  }
+  
+  .about .about-content .left img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+  
+  .about .about-content .right {
+    width: 55%;
+  }
+  
+  .about .about-content .right .text {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  /* Linear Gradiant */
+  .about .about-content .right .text span {
+    /* color: #1e3551; */
+    background: linear-gradient(135deg, #000000,#8cb17c, #041d3d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .about .about-content .right p {
+    text-align: justify;
+  }
+  
+  .about .about-content .right a {
+    margin-top: px;
+    color: #8cb17c;
+padding: 0 20px;
+    height: 45px;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    flex-wrap: nowrap;
+    border: 3px solid #8cb17c;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .about .about-content .right a:hover {
+    color: white;
+    color: white;
+    background: linear-gradient(90deg,  #8cb17c, #000000);
+    border: none;
+   
+  }
+  

@@ -1,0 +1,67 @@
+
+/*  Home  */
+.home {
+    display: flex;
+    background: linear-gradient(135deg, #cccccc, #041d3d, #041d3d);
+    height: 100vh;
+    color: #000000;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Ubuntu", sans-serif;
+  }
+  
+  .home .max-width {
+    width: 100%;
+    display: flex;
+  }
+  
+  .home .max-width .row {
+    margin-right: 0;
+  }
+  
+  .home .home-content .text-1 {
+    font-size: 27px;
+  }
+  
+  .home .home-content .text-2 {
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+  }
+  
+  .home .home-content .text-3 {
+    font-size: 40px;
+    margin: 5px 0;
+  }
+  
+  /* Linear Gradient */
+  .home .home-content .text-3 span {
+    color: #1e3551;
+    background: linear-gradient(90deg,  #8cb17c, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+  }
+  
+  .home .home-content a {
+    color: #8cb17c;
+ padding: 3px 20px;
+   
+    height: 45px;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    flex-wrap: nowrap;
+    border: 2px solid #8cb17c;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .home .home-content a:hover {
+    color: white;
+    background: linear-gradient(90deg,  #8cb17c, #000000);
+  border: none;
+  }
+  

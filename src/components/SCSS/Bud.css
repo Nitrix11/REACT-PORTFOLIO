@@ -1,0 +1,26 @@
+
+.banner-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .banner-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;}
+    .banner-content-wrapper {
+        position: relative;
+        z-index: 1;
+        padding: 20px;
+        background: #33333393;
+        height: 100vh;
+        color:red;
+      }
+      button{
+        background-color: aqua;
+        height: 70px;
+      }
